@@ -49,6 +49,7 @@
     font-weight: 800;
     text-transform: uppercase;
     font-size: x-large;
+    line-height: 8rem;
 }
 
 .button {
@@ -100,4 +101,123 @@ footer {
 
     footer .footer-right a:hover {
       color: #ff6600;
+    }
+
+    .search-div {
+        background-color: rgb(218,218,218);
+        padding: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-box {
+        width: 98%;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 8px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: large;
+    }
+    /* .search-box:hover {
+        border: 2px solid gray;
+    } */
+
+    .text {
+    background-color: #f97316;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    }
+
+    .text h1 {
+        color: white;
+        text-transform: uppercase;
+        font-weight:900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+    .outer {
+        background-color: rgb(218,218,218);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 16px;
+    }
+
+    .box {
+        width: 30%;
+        height: 520px;
+        background: white;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .img {
+        width: 348px;
+        height: 340px;
+    }
+
+    h2 {
+        color: #ea580c;
+        margin-bottom: 8px;
+        line-height: 2rem;
+    }
+    p {
+        color: black;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    .price-section {
+        width: 348px;
+        height: 60px;
+        display: flex;
+
+    }
+    .Buy {
+        color: white;
+        background-color: #ea580c;
+        width: 64px;
+        height: 48px;
+        margin: 12px 12px;
+        font-size: 1rem;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
+    }
+
+    .categories {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+        background-color: rgb(218,218,218);;
+    }
+
+    .categories a {
+        text-decoration: none;
+        color:#f97316;
+        text-transform: uppercase;
+        font-weight:900;
+        font-size: x-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .categories a:hover {
+        transition: all .3s ease-in;
+        color: white;
+    }
+
+    .space {
+        height: 500px;
+        background-color: rgb(218,218,218);;
     }
